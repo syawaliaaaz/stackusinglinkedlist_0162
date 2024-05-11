@@ -20,8 +20,7 @@ public:
 	}
 
 
-	int push(int value)
-	{
+	int push(int value) {
 		Node* newNode = new Node();
 		newNode->data = value;
 		newNode->next = top;
@@ -32,3 +31,6 @@ public:
 	
 	void pop() {
 		if (isEmpty()) {
+			cout << "Stack is empty." << endl;
+
+
