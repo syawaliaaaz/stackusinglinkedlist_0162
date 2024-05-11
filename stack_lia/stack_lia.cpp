@@ -18,9 +18,10 @@ class stack
 private:
 	Node* top;
 public:
-	stack()
-	{
+	stack() {
 		top = NULL;
 	}
+
+	
 
 
